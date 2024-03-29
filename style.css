@@ -1,0 +1,106 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    padding-top: 1rem;
+}
+
+.navbar-brand,
+.nav-link {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+
+
+.navbar-brand:visited,
+.nav-link:visited {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url(https://designmodo.com/wp-content/themes/designmodo/custom-pages/qards/presentation/img/svg-bg.svg);
+    height: 1200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+}
+
+
+.content {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 7rem;
+}
+
+.text-content {
+    margin: 7rem 3rem;
+}
+
+.h1-jumbotron {
+    font-size: 100px;
+}
+
+.p-jumbotron {
+    margin: 1rem auto;
+    font-size: 28px;
+    max-width: 700px;
+    font-weight: 100 !important;
+}
+
+.overview {
+    margin-top: 10rem;
+}
+
+.features {
+    margin-top: 10rem;
+}
+
+/* Small devices  */
+@media (max-width: 576px) {
+    .h1-jumbotron {
+        font-size: 50px;
+    }
+    
+    .p-jumbotron {
+        margin: 1rem auto;
+        font-size: 15px;
+        max-width: 700px;
+        font-weight: 100 !important;
+    }
+
+    .jumbotron {
+        background-image: url(https://designmodo.com/wp-content/themes/designmodo/custom-pages/qards/presentation/img/svg-bg.svg);
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+        margin-top: -100px;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 768px) { 
+    .h1-jumbotron {
+        font-size: 75px;
+    }
+    
+    .p-jumbotron {
+        margin: 1rem auto;
+        font-size: 20px;
+        max-width: 700px;
+        font-weight: 100 !important;
+    }
+
+    .jumbotron {
+        background-image: url(https://designmodo.com/wp-content/themes/designmodo/custom-pages/qards/presentation/img/svg-bg.svg);
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+        margin-top: -100px;
+    }
+}
